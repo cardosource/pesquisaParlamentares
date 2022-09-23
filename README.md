@@ -1,4 +1,4 @@
-baixa didelidade :
+baixa fidelidade :
 
 <div>
     <img src="https://raw.githubusercontent.com/cardosource/pesquisaParlamentares/90f8518b3d93b62f49994af2ec11d6ca9c005651/baixa_fidelidade_pesquisa.svg" width="300"/>
