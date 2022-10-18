@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&family=Roboto:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    gap : 16px;
+}
+
+
+
+.banner {
+    margin-top: 140px;
+    width: 586px;
+    height: 173px;
+    background-color: #001907;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.campos {
+    width: 586px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 12px;
+   /* background-color: aqua;*/
+}
+
+input[name="nome"]{
+    border: 0;
+    border: solid #001907 1px;
+    width: 49%;
+    height: 100%;
+    border-radius: 9px;
+    text-align: center;
+    
+
+    
+}
+input[name="nome"]::placeholder,input[name="uf"]::placeholder{
+    color: #001907 ;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+
+   
+}
+input[name="uf"]{
+    border: 0;
+    border: solid #001907 1px;
+    width: 20%;
+    height: 100%;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.pesquisar {
+    width: 586px;
+    height: 60px;
+    /*background-color: rgb(128, 128, 163);*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+
+
+#resposta{
+    text-decoration: none;
+   
+    color: #001907 ;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+input[type="button"]{
+    width: 50%;
+    height: 70%;
+    border-radius: 9px;
+    border: 0;
+    background-color: #001907 ;
+    color: #fafafa;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.13em;
+    
+
+    
+}
+
+.informacao{
+
+    width: 98%;
+    height:  96%;
+}
+
+.mor{
+    width: 12%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+   
+}
+
+#info{
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    
+}
+#info img{
+    width: 40px;
+    height: 20px;
+}
+.rodar{
+    transform: rotate(180deg);
+    
+   
+    
+
+
+}
+
+.finalidade{
+ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    background-color: #b8bfb9;
+    
+   
+    
+    
+}
+
+.finalidade h1{
+   
+    font-family: 'Roboto', sans-serif;
+    color:#001907 ;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+
+}
+.finalidade p{
+    
+  
+    color:#001907 ;
+    font-size: 20x;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    margin-left: 25px;
+    
+    
+}
+footer {
+  
+    background-color:  rgba(0, 25, 7, 1) ;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto{
+     width: 130px;
+     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  
+}
+
+.projeto h2{
+    font-family: 'Roboto', sans-serif;
+    color: #b8bfb9;
+    letter-spacing: 0.11em;
+
+}
+.imagemft{
+    width: 50px;
+    height: 40px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: height;
+}
+
+
+
+/*Pagina resultados*/
+.titulo{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.resposta{
+    background-color: #001907;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.resposta h1{
+    color: #b8bfb9;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.10em;
+}
+
+.dados{
+    margin-top: 40px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    
+}
+
+.imagem{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 3px;
+    border-radius: 10px;
+    border: solid #001907 1px;
+}
+
+.dadosCompletos,.informacaoLocal, .informacao{
+  
+    margin-left: 20px;
+    margin-top: 3px;
+    width: 98%;
+    height:  96%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+   
+}
+
+.name_is, .situacao, .genero, .cpf,.municipioNascimento, .escolaridade, #variantenome, #predio{
+    width: 98%;
+    height:  40px;
+    border: solid #001907 1px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+   
+
+    
+}
+.paritdo, .datas, .web, .lc, .contato{
+    width: 98%;
+    height:  80px;   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fafafa;
+}
+
+#sigla, #ufp, #dataNascimento, #idade, #site, #rede, #sala, #andar, #telefone, #email{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border: solid #001907 1px;
+    border-radius: 5px;
+  
+    
+}
+
+p{
+    font-size: 20x;
+    font-family: 'Robot', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    margin-left: 25px;
+}
+
+.titulolocal{
+    width: 200%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: height;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #001907;
+    
+}
+.titulolocal p{
+
+    color: #b8bfb9;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.10em;
+    font-size: 40px;
+    
+}
+
+#fotodisponivel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 20%;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+@media(max-width:1280px){
+    #fotodisponivel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        margin-top: 20%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
