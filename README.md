@@ -18,3 +18,7 @@ alta fidelidade :
  <img src="https://raw.githubusercontent.com/cardosource/pesquisaParlamentares/714bb13d600b7312567e8f55f3895d740bd97382/pagina_resultado.svg" width="300" />
   
 </div>
+
+
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
